@@ -42,7 +42,7 @@ int main()
     root->right->left->right = new node(67);
     root->right->right = new node(76);
 
-    cout << "Height of the tree: " << tree_height(root) << endl;
+    cout << "Height of the tree: " << tree_height(root)-1 << endl;
 
     return 0;
 }
